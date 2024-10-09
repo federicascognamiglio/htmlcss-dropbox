@@ -10,6 +10,9 @@ img {
 }
 
 /* UTILITIES */
+:root {
+    --hero-bg: #B4D0E6;
+}
 
 /* COMMON */
 /* Layout */
@@ -39,7 +42,7 @@ img {
     padding: 10px;
 
     /* debug */
-    background-color: #add8e6;
+    background-color: #c71294;
 }
 
 .nav-bar {
@@ -53,4 +56,40 @@ img {
     background-color: #ffb6c1;
     min-height: 50px;
     width: 300px;
+}
+
+/* MAIN */
+/* Hero */
+.hero-section {
+    background-color: var(--hero-bg);
+    padding-top: 20px;
+
+    /* debug */
+    height: 400px;
+}
+
+.row {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+
+    /* debug */
+    border: 1px solid black;
+    height: 380px;
+}
+
+.col-40 {
+    width: calc(40% - 10px);
+
+    /* debug */
+    background-color: #ce88e7;
+    height: 200px;
+}
+
+.col-60 {
+    width: calc(60% - 10px);
+
+     /* debug */
+     background-color: #550d6f;
+     height: 200px;
 }
