@@ -54,7 +54,7 @@ body {
 }
 
 .text-big {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .title {
@@ -198,20 +198,35 @@ body {
 
 .hero-section i {
     padding-top: 50px;
+    padding-bottom: 10px;
     font-size: 2.5rem;
 }
 
 /* Content */
 .plans-section {
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
-.plans-section .container-small .row {
+.plans-section .row {
    align-items: stretch;
+   margin-top: 30px;
 }
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.plans-section h2 {
+    margin-bottom: 30px;
+}
+
+#rb1,
+#rb2 {
+    vertical-align: middle;
+}
+
+.plans-section label {
+    padding-right: 30px;
 }
 
 /* FOOTER */
