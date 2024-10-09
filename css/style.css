@@ -9,10 +9,26 @@ img {
     width: 100%;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
 /* UTILITIES */
+/* Colors */
 :root {
     --hero-bg: #B4D0E6;
     --footer-bg: #000000;
+    --btn-blue-bg: #0061FE;
+    --white-color: #fff;
 }
 
 /* Margins */
@@ -26,6 +42,39 @@ img {
 
 .mb-40 {
     margin-bottom: 40px;
+}
+
+/* Typography */
+.text-small {
+    font-size: 0.8rem;
+}
+
+.text-regular {
+    font-size: 1rem;
+}
+
+.text-big {
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 4rem;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
 }
 
 /* COMMON */
@@ -98,12 +147,28 @@ img {
     height: 300px;
 }
 
+/* Buttons */
+.button {
+    padding: 5px 10px;
+}
+
+.btn-blue {
+    background-color: var(--btn-blue-bg);
+    color: var(--white-color);
+} 
+
 /* HEADER */
 .header {
-    padding: 10px;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background-color: var(--white-color);
+    border-bottom: 1px solid #E7E7E9;
+}
 
-    /* debug */
-    background-color: #c71294;
+.logo {
+    max-width: 100px;
 }
 
 .nav-bar {
@@ -112,11 +177,9 @@ img {
 }
 
 .nav-list {
-
-    /* debug */
-    background-color: #ffb6c1;
-    min-height: 50px;
-    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 /* MAIN */
