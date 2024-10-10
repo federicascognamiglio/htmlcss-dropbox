@@ -23,6 +23,7 @@ ul {
     --lightgray-color: #E7E7E9;
     --darkgray-color: #a09fa2;
     --link-color: #0000EE;
+    --blue-btn-hover: #3B93F7;
 }
 
 /* Margins */
@@ -182,11 +183,17 @@ body {
     color: var(--white-color);
 } 
 
-.btn-white {
+.btn-border {
     border: 1px solid #000000;
 }
 
+.btn-blue:hover {
+    background-color: var(--blue-btn-hover);
+}
 
+.btn-border:hover {
+    background-color: var(--lightgray-color);
+}
 
 a {
     color: inherit;
@@ -220,6 +227,11 @@ a {
     gap: 20px;
 }
 
+.header-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
 /* MAIN */
 /* Hero */
 .hero-section {
@@ -241,7 +253,7 @@ a {
 
 .hero-section i {
     padding-top: 20px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .hero-img {
