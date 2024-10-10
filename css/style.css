@@ -24,6 +24,14 @@ ul {
     --darkgray-color: #a09fa2;
     --link-color: #0000EE;
     --blue-btn-hover: #3B93F7;
+    --bg-green: #A2D39B;
+    --bg-brown: #61082B;
+    --bg-blue: #0093CE;
+    --bg-vibrant-red: #FF1C1C;
+    --bg-dark-red: #D5001F;
+    --bg-lightblue: #B4D0E7;
+    --bg-darkblue: #0D2481;
+    --bg-yellow: #FFD830;
 }
 
 /* Margins */
@@ -340,6 +348,44 @@ a {
 
 .operation-section .col-60 h2 {
     padding-bottom: 40px;
+}
+
+/* Banner */
+.banner img {
+    fill: #fff;
+}
+.row-banner {
+    display: flex;
+}
+
+.col-banner {
+    width: calc(100% / 3);
+}
+
+.col-inside {
+    width: 50%;
+    padding: 50px;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-green {
+    background-color: var(--bg-green);
+}
+
+.bg-brown {
+    background-color: var(--bg-brown);
+}
+
+.bg-blue {
+    background-color: var(--bg-blue);
+}
+
+.bg-vibrant-red {
+    background-color: var(--bg-vibrant-red);
 }
 
 /* FOOTER */
