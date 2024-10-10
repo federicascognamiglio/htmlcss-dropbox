@@ -77,7 +77,7 @@ ul {
 }
 
 .p-20 {
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 /* Display */
@@ -386,6 +386,43 @@ a {
 
 .bg-vibrant-red {
     background-color: var(--bg-vibrant-red);
+}
+
+/* FAQ Section */
+.faq-section {
+    padding: 50px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.relative {
+    position: relative;
+}
+
+.back {
+    position: absolute;
+    right: 20px;
+    visibility: hidden;
+}
+
+.hover-p {
+    position: absolute;
+    visibility: hidden;
+}
+
+.question-box:hover .back {
+    visibility: visible;
+}
+
+.question-box:hover .front {
+    visibility: hidden;
+}
+
+.question-box:hover .hover-p {
+    position: relative;
+    visibility: visible;
 }
 
 /* FOOTER */
