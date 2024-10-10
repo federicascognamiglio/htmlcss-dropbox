@@ -22,7 +22,7 @@ ul {
     --white-color: #fff;
     --lightgray-color: #E7E7E9;
     --darkgray-color: #a09fa2;
-    --link-color: #0C26ED;
+    --link-color: #0000EE;
 }
 
 /* Margins */
@@ -135,10 +135,6 @@ body {
     width: 70%;
     max-width: 900px;
     margin: 0 auto;
-
-    /* debug */
-    min-height: 500px;
-    border: 1px sold #000000;
 }
 
 .row {
@@ -314,6 +310,18 @@ a {
 
 .plans-section label {
     padding-right: 30px;
+}
+
+/* Partners Section */
+.partners-section,
+.operation-section {
+    margin-top: 100px;
+}
+
+/* Operations Section */
+.operation-section .col-60 {
+    padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 /* FOOTER */
