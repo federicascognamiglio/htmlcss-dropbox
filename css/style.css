@@ -168,10 +168,6 @@ body {
 
 .col-footer {
     width: calc((100% - 80px) / 5);
-
-    /* debug */
-    background-color: #ce4257;
-    height: 300px;
 }
 
 /* Buttons */
@@ -327,6 +323,17 @@ a {
 /* FOOTER */
 .footer {
     padding: 60px 0;
+    color: var(--white-color);
     background-color: var(--footer-bg);
+}
+
+.footer hr {
+    border: 0.5px solid var(--white-color);
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+.footer i {
+    padding-right: 5px;
 }
 
