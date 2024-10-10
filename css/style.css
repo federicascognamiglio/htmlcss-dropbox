@@ -186,6 +186,8 @@ body {
     border: 1px solid #000000;
 }
 
+
+
 a {
     color: inherit;
     text-decoration: none;
@@ -223,6 +225,7 @@ a {
 .hero-section {
     background-color: var(--hero-bg);
     padding-top: 130px;
+    padding-bottom: 8px;
 }
 
 .hero-section .col-30 {
@@ -237,9 +240,12 @@ a {
 }
 
 .hero-section i {
-    padding-top: 40px;
-    padding-bottom: 10px;
+    padding-top: 20px;
     font-size: 2.5rem;
+}
+
+.hero-img {
+    margin-bottom: -70px;
 }
 
 /* Content */
@@ -317,6 +323,10 @@ a {
 /* Operations Section */
 .operation-section .col-60 {
     padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.operation-section .col-60 h2 {
     padding-bottom: 40px;
 }
 
